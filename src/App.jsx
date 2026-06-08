@@ -7,6 +7,7 @@ import Login from './components/Pages/auth/login'
 import Register from './components/Pages/auth/register'
 import Team from "./components/shared/Team";
 import Contact from "./components/shared/Contact";
+import Admin from './components/Pages/Admin';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </div>
     </BrowserRouter>
